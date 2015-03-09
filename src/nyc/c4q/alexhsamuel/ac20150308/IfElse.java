@@ -11,11 +11,6 @@ public class IfElse {
         System.out.print("What's your score? ");
         int score = scanner.nextInt();
 
-        System.out.println(score == 100);
-        System.out.println(score >= 90);
-        System.out.println(score >= 75);
-        System.out.println(score >= 60);
-
         if (score == 100) {
             System.out.println("Perfect score!");
         }
